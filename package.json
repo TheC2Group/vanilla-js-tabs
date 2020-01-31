@@ -1,6 +1,6 @@
 {
-    "name": "tabs-js",
-    "version": "1.0.0",
+    "name": "vanilla-js-tabs",
+    "version": "1.0.1",
     "description": "Vanilla JS version of the C2 tabs module",
     "jsnext:main": "tabs.js",
     "main": "tabs.js",
@@ -10,7 +10,9 @@
         "bundle-example": "browserify example/js/index.js -o example/bundle/index.js"
     },
     "keywords": [
-        "tabs"
+        "tabs",
+        "vanilla",
+        "accessible"
     ],
     "author": "The C2 Group",
     "license": "MIT",

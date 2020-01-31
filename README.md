@@ -10,11 +10,11 @@ To get Started
 ### CommonJS
 
 ```
-$ npm install c2-tabs
+$ npm install vanilla-js-tabs
 ```
 
 ```js
-var Tabs = require('c2-tabs');
+var Tabs = require('vanilla-js-tabs');
 ```
 
 ### Browser Global
