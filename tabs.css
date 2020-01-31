@@ -1,0 +1,15 @@
+.Tabs .tablist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.Tabs .tab {
+    float: left;
+    cursor: pointer;
+}
+
+.Tabs .panel[aria-hidden="true"] {
+    display: none;
+}

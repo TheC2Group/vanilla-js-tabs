@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tab Panel Widget</title>
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" href="../tabs.css">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+
+        <div class="Wrap">
+            <h3>Tabs Widget - basic</h3>
+
+            <div class="Tabs" id="Example1">
+                <ul class="tablist" role="tablist">
+                    <li class="tab">Tab 1</li>
+                    <li class="tab">Tab 2</li>
+                    <li class="tab">Tab 3</li>
+                </ul>
+
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nunc sapien, sodales ut molestie ac, porta nec enim. Integer sapien elit, auctor sed tortor vitae, posuere tincidunt purus. Donec porttitor sapien in elit efficitur, eu congue metus tempor. Curabitur eu ipsum sit amet metus maximus dapibus. Nullam pretium orci a turpis feugiat elementum. Duis pretium vel leo vehicula vestibulum. Quisque sed enim maximus, bibendum sem sit amet, interdum erat. Ut in purus sapien. Ut laoreet, metus nec suscipit rutrum, quam quam scelerisque nunc, ac aliquet nisi turpis ut risus. Proin bibendum rutrum tincidunt. Pellentesque vel posuere odio, non dictum risus. Donec nec feugiat justo, ut lobortis felis. Etiam eget aliquam ex.</p>
+                </div>
+
+                <div class="panel">
+                    <p>Cras mattis feugiat faucibus. Maecenas in posuere purus, a vehicula purus. Vestibulum ut eleifend ipsum, non cursus metus. Vestibulum at purus justo. Morbi lobortis massa quis arcu malesuada, sed efficitur magna faucibus. Praesent elit sem, semper nec felis posuere, convallis mattis neque. Mauris vitae sem sit amet tellus commodo porttitor. In et rhoncus eros, sodales iaculis purus. Suspendisse feugiat neque ac purus tempus, non pellentesque est finibus. Phasellus vitae diam tristique lacus dapibus ornare.</p>
+                </div>
+
+                <div class="panel">
+                    <p>Suspendisse ornare molestie mi non sollicitudin. Nullam volutpat eleifend convallis. Aliquam non sapien facilisis, placerat lorem viverra, molestie diam. Pellentesque a quam vel metus lacinia egestas. Nam sed turpis id ipsum ultrices dapibus. Proin vitae arcu sodales lacus luctus feugiat. Phasellus tempor, enim et cursus venenatis, ipsum lacus tempor elit, ac commodo ligula orci vel nibh. Vestibulum tristique leo a tellus molestie, vitae cursus enim cursus. Pellentesque in tempus neque, in malesuada massa.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Wrap">
+            <button class="destroy">Destroy Basic Tabs</button>
+            <button class="enable">Enable Basic Tabs</button>
+            <br><br><br><br>
+        </div>
+
+        <div class="Wrap">
+            <h3>Tabs Widget - with custom IDs</h3>
+
+            <div class="Tabs" id="Example2">
+                <ul class="tablist" role="tablist">
+                    <li class="tab" id="Tab1">Tab 1</li>
+                    <li class="tab" id="Tab2">Tab 2</li>
+                    <li class="tab" id="Tab3">Tab 3</li>
+                </ul>
+
+                <div class="panel" aria-labelledby="Tab1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nunc sapien, sodales ut molestie ac, porta nec enim. Integer sapien elit, auctor sed tortor vitae, posuere tincidunt purus. Donec porttitor sapien in elit efficitur, eu congue metus tempor. Curabitur eu ipsum sit amet metus maximus dapibus. Nullam pretium orci a turpis feugiat elementum. Duis pretium vel leo vehicula vestibulum. Quisque sed enim maximus, bibendum sem sit amet, interdum erat. Ut in purus sapien. Ut laoreet, metus nec suscipit rutrum, quam quam scelerisque nunc, ac aliquet nisi turpis ut risus. Proin bibendum rutrum tincidunt. Pellentesque vel posuere odio, non dictum risus. Donec nec feugiat justo, ut lobortis felis. Etiam eget aliquam ex.</p>
+                </div>
+
+                <div class="panel" aria-labelledby="Tab2">
+                    <p>Cras mattis feugiat faucibus. Maecenas in posuere purus, a vehicula purus. Vestibulum ut eleifend ipsum, non cursus metus. Vestibulum at purus justo. Morbi lobortis massa quis arcu malesuada, sed efficitur magna faucibus. Praesent elit sem, semper nec felis posuere, convallis mattis neque. Mauris vitae sem sit amet tellus commodo porttitor. In et rhoncus eros, sodales iaculis purus. Suspendisse feugiat neque ac purus tempus, non pellentesque est finibus. Phasellus vitae diam tristique lacus dapibus ornare.</p>
+                </div>
+
+                <div class="panel" aria-labelledby="Tab3">
+                    <p>Suspendisse ornare molestie mi non sollicitudin. Nullam volutpat eleifend convallis. Aliquam non sapien facilisis, placerat lorem viverra, molestie diam. Pellentesque a quam vel metus lacinia egestas. Nam sed turpis id ipsum ultrices dapibus. Proin vitae arcu sodales lacus luctus feugiat. Phasellus tempor, enim et cursus venenatis, ipsum lacus tempor elit, ac commodo ligula orci vel nibh. Vestibulum tristique leo a tellus molestie, vitae cursus enim cursus. Pellentesque in tempus neque, in malesuada massa.</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./bundle/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    margin: 50px;
+    font-family: sans-serif;
+}
+
+.Wrap {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.Tabs {
+    margin: 0 0 50px;
+}
+
+.Tabs .tab {
+    padding: 10px;
+    margin-right: 5px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.Tabs .tab[aria-selected="true"] {
+    background: #ccc;
+    color: #000;
+}
+
+.Tabs .tab:focus {
+    background: #bbb;
+}
+
+.Tabs .panel {
+    padding: 10px 20px;
+    background: #eee;
+    border: 1px solid black;
+}
