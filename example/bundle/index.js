@@ -2,7 +2,7 @@
 /*!
  * vanilla-js-tabs
  * undefined
- * @version 1.0.1
+ * @version 1.0.2
  * @license MIT (c) The C2 Group (c2experience.com)
  */
 'use strict';
@@ -241,7 +241,7 @@ var Tabs = function Tabs(el, options) {
   count += 1;
   this.count = count;
   this.opts = extend(defaults, options);
-  this.el = document.querySelector(el);
+  this.el = el;
   this.tablist = this.el.querySelector(this.opts.tablist);
   this.tabs = this.el.querySelectorAll(this.opts.tab);
   this.panels = this.el.querySelectorAll(this.opts.panel);
@@ -270,20 +270,20 @@ module.exports = Tabs;
 },{"c2-event-handler":3}],2:[function(require,module,exports){
 var Tabs = require('../../cjs/tabs.js');
 
-var tabs1 = new Tabs('#Example1');
+var tabs1 = new Tabs(document.getElementById('Example1'));
 
 tabs1.on('update', function (i) {
     console.log(i);
 });
 
-var tabs2 = new Tabs('#Example2');
+var tabs2 = new Tabs(document.getElementById('Example2'));
 
 document.querySelector('button.destroy').addEventListener('click', function() {
     tabs1.destroy();
 });
 
 document.querySelector('button.enable').addEventListener('click', function() {
-    tabs1 = new Tabs('#Example1');
+    tabs1 = new Tabs(document.getElementById('Example1'));
 });
 
 },{"../../cjs/tabs.js":1}],3:[function(require,module,exports){

@@ -1,7 +1,7 @@
 /*!
  * vanilla-js-tabs
  * undefined
- * @version 1.0.1
+ * @version 1.0.2
  * @license MIT (c) The C2 Group (c2experience.com)
  */
 var Tabs = (function (eventHandler) {
@@ -239,7 +239,7 @@ var Tabs = (function (eventHandler) {
       count += 1;
       this.count = count;
       this.opts = extend(defaults, options);
-      this.el = document.querySelector(el);
+      this.el = el;
       this.tablist = this.el.querySelector(this.opts.tablist);
       this.tabs = this.el.querySelectorAll(this.opts.tab);
       this.panels = this.el.querySelectorAll(this.opts.panel);

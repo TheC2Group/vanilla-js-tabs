@@ -241,7 +241,7 @@ var Tabs = function (el, options) {
 
     this.opts = extend(defaults, options);
 
-    this.el = document.querySelector(el);
+    this.el = el;
     this.tablist = this.el.querySelector(this.opts.tablist);
     this.tabs = this.el.querySelectorAll(this.opts.tab);
     this.panels = this.el.querySelectorAll(this.opts.panel);

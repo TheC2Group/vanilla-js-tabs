@@ -1,6 +1,6 @@
 {
     "name": "vanilla-js-tabs",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Vanilla JS version of the C2 tabs module",
     "jsnext:main": "tabs.js",
     "main": "tabs.js",
