@@ -207,10 +207,14 @@ var Tabs = (function (eventHandler) {
     var removeAriaAttributes = function removeAriaAttributes() {
       this.tablist.removeAttribute('role');
       this.tabs.forEach((tab, i) => {
-        tab.removeAttribute('role tabindex aria-selected');
+        tab.removeAttribute('role');
+        tab.removeAttribute('tabindex');
+        tab.removeAttribute('aria-selected');
       });
       this.panels.forEach((panel, i) => {
-        panel.removeAttribute('role tabindex aria-hidden');
+        panel.removeAttribute('role');
+        panel.removeAttribute('tabindex');
+        panel.removeAttribute('aria-hidden');
       });
     };
 

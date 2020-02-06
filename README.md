@@ -40,7 +40,7 @@ API
 ---
 
 ```js
-var tabs = new Tabs('.Tabs');
+var tabs = new Tabs(document.getElementById('Example1'));
 
 tabs.on('update', i => {
     console.log('index', i); // index 0, index 1, index 0
