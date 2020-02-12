@@ -1,7 +1,7 @@
 /*!
  * vanilla-js-tabs
  * undefined
- * @version 1.0.2
+ * @version 1.0.4
  * @license MIT (c) The C2 Group (c2experience.com)
  */
 var Tabs = (function (eventHandler) {
